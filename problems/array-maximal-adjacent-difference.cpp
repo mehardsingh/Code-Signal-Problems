@@ -1,5 +1,4 @@
-/* Given an array of integers, find the maximal absolute difference
- * between any two of its adjacent elements. */
+/* Given an array of integers, find the maximal absolute difference between any two of its adjacent elements. */
 
 int arrayMaximalAdjacentDifference(vector<int> inputArray) {
     int largest_diff = inputArray[1] - inputArray[0] < 0;
